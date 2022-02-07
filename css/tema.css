@@ -1,0 +1,67 @@
+@import url("cores.css");
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, var(--cor-ver-1), var(--cor-azu-1));
+    --largura1: 6vw;
+    --largura2: calc(90vw - var(--largura1) * 2);
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cor-bra-1);
+    width: 99vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+    border-bottom-right-radius: 100px;
+}
+
+main {
+    border-radius: 10px;
+    padding-top: 1vh;
+    padding-left: var(--largura1);
+    padding-right: var(--largura1);
+    background-color: var(--cor-bra-1);
+    padding-bottom: 1vh;
+    margin-left: 4vw;
+    width: var(--largura2);
+}
+
+button {
+    width: 30vw;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-image: linear-gradient(45deg, var(--cor-ver-1), var(--cor-azu-1));
+}
+
+.linha {
+    border-radius: 5px;
+    height: 5px;
+    background-image: linear-gradient(45deg, var(--cor-ver-1), var(--cor-azu-1));
+}
+
+.centro {
+    width: 100%;
+    text-align: center;
+}
+
+#logo-bettanin {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+#meio {
+    background-image: linear-gradient(180deg, var(--cor-ver-1), var(--cor-azu-1));
+    height: 30px;
+}
